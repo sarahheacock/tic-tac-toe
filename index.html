@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>tic-tac-toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<head>
+<!-- font awesome -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <meta http-equiv="refresh" content="1">
+</head>
+
+
+<body class="text-center container-fluid">
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Choose a Team</h2>
+    </div>
+    <div class="modal-body text-center">
+      <button class="choose">X</button>
+      <button class="choose">O</button>
+      <button class="playagain">Play Again</button>
+    </div>
+  </div>
+</div>
+
+<div id="nextModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>You go...</h2>
+    </div>
+    <div class="modal-body">
+      <p class="tell"></p>
+      <p class="count"></p>
+    </div>
+  </div>
+</div>
+  <div class="main">
+  <h1>tic-tac-toe</h1>
+    <button class="reset">Reset</button>
+  <table style="width:100%">
+  <tr>
+    <th id="Human">You <br /></th>
+    <th id="Computer">Computer <br /></th> 
+  </tr>
+  <tr>
+    <td id="h_score"></td>
+    <td id="c_score"></td> 
+  </tr>
+</table>  
+  <div>
+    <button class="play 00" id="0"><span>_</span></button>
+    <button class="play 01" id="1"><span>_</span></button>
+    <button class="play 02" id="2"><span>_</span></button>
+  </div>
+  <div>
+    <button class="play 10" id="3"><span>_</span></button>
+    <button class="play 11" id="4"><span>_</span></button>
+    <button class="play 12" id="5"><span>_</span></button>
+  </div>
+  <div>
+    <button class="play 20" id="6"><span>_</span></button>
+    <button class="play 21" id="7"><span>_</span></button>
+    <button class="play 22" id="8"><span>_</span></button>
+  </div>
+  <div>
+    <p class="turn"></p>
+  </div>
+  </div>
+</body>
+<footer>
+    <p>This page was built with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i> by Sarah Heacock.<br/ >Copyright &copy; 2016. All rights reserved.</p>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
